@@ -1,4 +1,11 @@
-const numbers = [ 3, 5, 23, 12, 45, 1, 89, 25, 78, 65 ];
+const numbers = [ 3, 16, 23, 112, 45, 78, 89, 25, 8, 65 ];
+
+numbers.forEach( ( _, index, arr ) => {
+    //console.log( value, index, arr );
+    if ( arr[ index ] % 2 === 0 ) {
+        console.log( arr[ index ] );
+    }
+} );
 
 let sum = 0;
 
@@ -8,8 +15,8 @@ let sum = 0;
 
 // console.log( 'Sum = ', sum );
 
-numbers.forEach( number => {
-    sum += number;
+numbers.forEach( ( value ) => {
+    sum += value;
 } );
 
 console.log( 'Sum =', sum );
