@@ -1,4 +1,4 @@
-const a = [ undefined, 1, 2, 'Army', 3, true, 4, null, false, true, 5, 'sami', 6, 7, 'farmee', 8, null ];
+const a = [ undefined, 1, NaN, 2, 'Army', 3, true, 4, null, false, NaN, true, 5, 'sami', 6, 7, 'farmee', 8, null, 9 ];
 
 console.log( "Original Array: \n", a );
 
